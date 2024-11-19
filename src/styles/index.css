@@ -1,12 +1,21 @@
+.counter-box {
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 100px;
+    height: 150px;
+    align-content: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 85%, rgba(255,255,255,1) 100%);
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0);
+    font-size: 100px;
+    color: whitesmoke;
+    padding-left: 19px;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.clock {
+  position: absolute;
+}
+.fa-clock {
+    font-size: 80px !important;
+}
