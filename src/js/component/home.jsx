@@ -15,7 +15,7 @@ const Home = () => {
 		<>
 			<div className="container d-flex justify-content-center ">
 				<div className="row">
-					<div className="counter-box"><i className="fa fa-clock"></i></div>
+					<div className="counter-box d-flex"><i className="fa fa-clock"></i></div>
 					<div className="counter-box"><HundredsOfThousandsOfSecondsCounter></HundredsOfThousandsOfSecondsCounter></div>
 					<div className="counter-box"><TensOfThousandsOfSecondsCounter></TensOfThousandsOfSecondsCounter></div>
 					<div className="counter-box"><ThousandsOfSecondsCounter></ThousandsOfSecondsCounter></div>

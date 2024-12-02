@@ -1,6 +1,7 @@
 .counter-box {
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     width: 100px;
     height: 150px;
     align-content: center;
@@ -13,9 +14,19 @@
     padding-left: 19px;
 }
 
-.clock {
-  position: absolute;
-}
+
 .fa-clock {
-    font-size: 80px !important;
+    font-size: 70px !important;
+    margin: auto;
+    margin-right: 10px !important;
+
+    padding-right: 20px !important;
+   
+}
+
+.container {
+  background-color:rgba(16, 16, 16, 0.847);
+  height: 280px;
+  width: 900px;
+  border-radius: 15px;
 }
